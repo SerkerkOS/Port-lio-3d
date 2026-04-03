@@ -34,24 +34,27 @@ const Contact = () => {
         "template_17us8im",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Kauan",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "kauanbastosmendes@gmail.com",
           message: formData.message,
         },
         "pn-Bw_mS1_QQdofuV"
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
-      showAlertMessage("success", "You message has been sent!");
+      showAlertMessage("success", "Mensagem enviada com sucesso!");
     } catch (error) {
       setIsLoading(false);
       console.log(error);
-      showAlertMessage("danger", "Somthing went wrong!");
+      showAlertMessage("danger", "Algo deu errado!");
     }
   };
   return (
-    <section className="relative flex items-center c-space section-spacing">
+    <section
+      id="contact"
+      className="relative flex items-center c-space section-spacing"
+    >
       <Particles
         className="absolute inset-0 -z-50"
         quantity={100}
@@ -62,23 +65,23 @@ const Contact = () => {
       {showAlert && <Alert type={alertType} text={alertMessage} />}
       <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
         <div className="flex flex-col items-start w-full gap-5 mb-10">
-          <h2 className="text-heading">Let's Talk</h2>
+          <h2 className="text-heading">Vamos Conversar</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            Se você quer construir um novo site, melhorar uma plataforma
+            existente ou tirar um projeto do papel, estou pronto para ajudar.
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-5">
-            <label htmlFor="name" className="feild-label">
-              Full Name
+            <label htmlFor="name" className="field-label">
+              Nome Completo
             </label>
             <input
               id="name"
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="John Doe"
+              placeholder="Seu nome"
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
@@ -86,7 +89,7 @@ const Contact = () => {
             />
           </div>
           <div className="mb-5">
-            <label htmlFor="email" className="feild-label">
+            <label htmlFor="email" className="field-label">
               Email
             </label>
             <input
@@ -94,7 +97,7 @@ const Contact = () => {
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
+              placeholder="seu-email@dominio.com"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}
@@ -102,8 +105,8 @@ const Contact = () => {
             />
           </div>
           <div className="mb-5">
-            <label htmlFor="message" className="feild-label">
-              Message
+            <label htmlFor="message" className="field-label">
+              Mensagem
             </label>
             <textarea
               id="message"
@@ -111,7 +114,7 @@ const Contact = () => {
               type="text"
               rows="4"
               className="field-input field-input-focus"
-              placeholder="Share your thoughts..."
+              placeholder="Escreva sua mensagem..."
               autoComplete="message"
               value={formData.message}
               onChange={handleChange}
@@ -122,7 +125,7 @@ const Contact = () => {
             type="submit"
             className="w-full px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-radial from-lavender to-royal hover-animation"
           >
-            {!isLoading ? "Send" : "Sending..."}
+            {!isLoading ? "Enviar" : "Enviando..."}
           </button>
         </form>
       </div>

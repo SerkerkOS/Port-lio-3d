@@ -5,22 +5,22 @@ function Navigation() {
     <ul className="nav-ul">
       <li className="nav-li">
         <a className="nav-link" href="#home">
-          Home
+          Início
         </a>
       </li>
       <li className="nav-li">
         <a className="nav-link" href="#about">
-          About
+          Sobre
         </a>
       </li>
       <li className="nav-li">
         <a className="nav-link" href="#work">
-          Work
+          Projetos
         </a>
       </li>
       <li className="nav-li">
         <a className="nav-link" href="#contact">
-          Contact
+          Contato
         </a>
       </li>
     </ul>
@@ -34,9 +34,14 @@ const Navbar = () => {
         <div className="flex items-center justify-between py-2 sm:py-0">
           <a
             href="/"
-            className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
+            className="flex items-center gap-2 text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            Ali
+            <img
+              src="/favicon.svg"
+              alt="Logo"
+              className="w-6 h-6"
+            />
+            Kauan
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}

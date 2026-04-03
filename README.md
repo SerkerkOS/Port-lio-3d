@@ -1,112 +1,112 @@
-# 🚀 3D Developer Portfolio
+# 🚀 Portfólio 3D de Desenvolvedor
 
-A modern, animated 3D developer portfolio built with React, Three.js, JavaScript, Node.js, and Python — designed to help Kauan Bastos Mendes stand out and showcase his skills creatively.
+Um portfólio 3D moderno e animado, construído com React, Three.js, JavaScript, Node.js e Python — criado para ajudar Kauan Bastos Mendes a se destacar e apresentar suas habilidades de forma criativa.
 
 ![3d Portfolio Screenshot GitHub](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e)
 
 ---
 
-## 📚 Table of Contents
+## 📚 Sumário
 
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
+- [Recursos](#-recursos)
+- [Tecnologias](#-tecnologias)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Como Iniciar](#-como-iniciar)
 - [Assets](#-assets)
-- [Contact Me](#-contact-me)
-- [Suggestions or Feedback](#-suggestions-or-feedback)
-- [Like This Project?](#-like-this-project)
+- [Fale Comigo](#-fale-comigo)
+- [Sugestões ou Feedback](#-sugestões-ou-feedback)
+- [Gostou Deste Projeto?](#-gostou-deste-projeto)
 
 ---
 
-## ✨ Features
+## ✨ Recursos
 
-- 🔥 3D visuals powered by **React Three Fiber** and **Drei**
-- ⚡ Smooth transitions and scroll-based animations using **Framer Motion**
-- 🎨 Clean, responsive UI with **TailwindCSS**
-- 💌 Working contact form using **EmailJS**
-- 🧱 Beautiful UI enhancements with **Aceternity UI** and **Magic UI**
-- 🚀 Lightning-fast development with **Vite**
-
----
-
-## 🛠 Tech Stack
-
-| Tech              | Description                           |
-|-------------------|---------------------------------------|
-| React             | Front-end JavaScript library          |
-| Three.js          | 3D rendering library for the web      |
-| JavaScript        | Core language for web development     |
-| Node.js           | JavaScript runtime for back-end       |
-| Python            | General-purpose programming language  |
+- 🔥 Visuais 3D com **React Three Fiber** e **Drei**
+- ⚡ Transições suaves e animações com base no scroll usando **Framer Motion**
+- 🎨 UI limpa e responsiva com **TailwindCSS**
+- 💌 Formulário de contato funcional com **EmailJS**
+- 🧱 Melhorias de UI com **Aceternity UI** e **Magic UI**
+- 🚀 Desenvolvimento rápido com **Vite**
 
 ---
 
-## 📁 Project Structure
+## 🛠 Tecnologias
+
+| Tech              | Description                              |
+|-------------------|------------------------------------------|
+| React             | Biblioteca JavaScript para front-end     |
+| Three.js          | Biblioteca de renderização 3D para web   |
+| JavaScript        | Linguagem base do desenvolvimento web    |
+| Node.js           | Runtime JavaScript para back-end         |
+| Python            | Linguagem de propósito geral             |
+
+---
+
+## 📁 Estrutura do Projeto
 
 ```bash
 ├── public/
-│   ├── assets/             # Images, textures, models
-│   ├── models/             # 3D Astronaut model
+│   ├── assets/             # Imagens, texturas, modelos
+│   ├── models/             # Modelo 3D do astronauta
 │   └── vite.svg
 ├── src/
-│   ├── components/         # Reusable components
-│   ├── constants/          # Reusable datas
-│   ├── sections/           # Portfolio sections (Hero, About, etc.)
-│   ├── App.jsx             # Main app file
-│   ├── index.css           # Tailwind css
-│   └── main.jsx            # Entry point
+│   ├── components/         # Componentes reutilizáveis
+│   ├── constants/          # Dados reutilizáveis
+│   ├── sections/           # Seções do portfólio (Hero, About, etc.)
+│   ├── App.jsx             # Arquivo principal do app
+│   ├── index.css           # Tailwind CSS
+│   └── main.jsx            # Ponto de entrada
 ├── tailwind.config.js
 └── vite.config.js
 ```
 
 ---
 
-## 🚀 Getting Started
-1. Clone the Repository
+## 🚀 Como Iniciar
+1. Clone o Repositório
 ```bash
 git clone https://github.com/SerkerkOS/Port-lio-3d.git
 cd Port-lio-3d
 ```
-2. Install Dependencies
+2. Instale as Dependências
 ```bash
 npm install
 ```
-3. Run the Development Server
+3. Rode o Servidor de Desenvolvimento
 ```bash
 npm run dev
 ```
-The app will be available at http://localhost:5173.
+O app ficará disponível em http://localhost:5173.
 
 ---
 
 ## 🔗 Assets
-Assets used in the project can be found [here](https://github.com/user-attachments/files/19820923/public.zip)
+Os assets usados no projeto podem ser encontrados [aqui](https://github.com/user-attachments/files/19820923/public.zip)
 
 ---
 
-## 📬 Contact Me
+## 📬 Fale Comigo
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/kkauan_bastos?igsh=bGZldXp6MWg1cTBy) 
 [![Static Badge](https://img.shields.io/badge/Youtube-%23FF0033?style=flat&logo=youtube)](https://www.youtube.com/@SerkerkOS)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kauan-bastos-74b7a931a/) 
 
 ---
 
-## 💡 Suggestions or Feedback?
-Leave a comment on the [YouTube video](https://youtu.be/S9UQItTpwUQ) or open an issue here on GitHub.<br/>
-👉 What should I build next?
+## 💡 Sugestões ou Feedback?
+Deixe um comentário no [vídeo do YouTube](https://youtu.be/S9UQItTpwUQ) ou abra uma issue aqui no GitHub.<br/>
+👉 O que devo construir a seguir?
 
-- A beautiful Landing Page
+- Uma Landing Page bonita
 
-- A complete E-commerce site
+- Um site completo de E-commerce
 
-- A fun App Clone (YouTube, Netflix, etc.)
+- Um clone divertido de app (YouTube, Netflix, etc.)
 
-Or another interactive Portfolio
+Ou outro portfólio interativo
 
-Let me know!
+Me avise!
 
 ---
 
-## ⭐ Like This Project?
-Star the repo and [subscribe](https://www.youtube.com/@SerkerkOS) to the YouTube channel for more dev content!
+## ⭐ Gostou Deste Projeto?
+Dê uma estrela no repositório e [inscreva-se](https://www.youtube.com/@SerkerkOS) no canal do YouTube para mais conteúdo dev!

@@ -1,6 +1,6 @@
 # 🚀 3D Developer Portfolio
 
-A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — designed to help you stand out and showcase your skills creatively.
+A modern, animated 3D developer portfolio built with React, Three.js, JavaScript, Node.js, and Python — designed to help Kauan Bastos Mendes stand out and showcase his skills creatively.
 
 ![3d Portfolio Screenshot GitHub](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e)
 
@@ -35,14 +35,10 @@ A modern, animated 3D developer portfolio built with React, Three.js, TailwindCS
 | Tech              | Description                           |
 |-------------------|---------------------------------------|
 | React             | Front-end JavaScript library          |
-| Vite              | Fast bundler and dev environment      |
-| TailwindCSS       | Utility-first CSS framework           |
-| React Three Fiber | 3D rendering with Three.js in React   |
-| Drei              | Helpers and abstractions for R3F      |
-| Framer Motion     | Animation library for React           |
-| EmailJS           | Form handling and email integration   |
-| Aceternity UI     | Custom UI components                  |
-| Magic UI          | Prebuilt UI elements and design extras|
+| Three.js          | 3D rendering library for the web      |
+| JavaScript        | Core language for web development     |
+| Node.js           | JavaScript runtime for back-end       |
+| Python            | General-purpose programming language  |
 
 ---
 
@@ -69,8 +65,8 @@ A modern, animated 3D developer portfolio built with React, Three.js, TailwindCS
 ## 🚀 Getting Started
 1. Clone the Repository
 ```bash
-git clone https://github.com/Ali-Sanati/Portfolio.git
-cd Portfolio
+git clone https://github.com/SerkerkOS/Port-lio-3d.git
+cd Port-lio-3d
 ```
 2. Install Dependencies
 ```bash
@@ -90,9 +86,9 @@ Assets used in the project can be found [here](https://github.com/user-attachmen
 ---
 
 ## 📬 Contact Me
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/ali.sanatidev/reels/) 
-[![Static Badge](https://img.shields.io/badge/Youtube-%23FF0033?style=flat&logo=youtube)](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-sanati/) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/kkauan_bastos?igsh=bGZldXp6MWg1cTBy) 
+[![Static Badge](https://img.shields.io/badge/Youtube-%23FF0033?style=flat&logo=youtube)](https://www.youtube.com/@SerkerkOS)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kauan-bastos-74b7a931a/) 
 
 ---
 
@@ -113,4 +109,4 @@ Let me know!
 ---
 
 ## ⭐ Like This Project?
-Star the repo and [subscribe](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA??sub_confirmation=1) to the YouTube channel for more dev content!
+Star the repo and [subscribe](https://www.youtube.com/@SerkerkOS) to the YouTube channel for more dev content!
